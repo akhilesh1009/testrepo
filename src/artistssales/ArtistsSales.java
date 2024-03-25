@@ -15,7 +15,7 @@ public class ArtistsSales
         Scanner scanner = new Scanner(System.in);
 
         //List of Artists.
-        String[] artists = {"POST MALONE", "TOM GRENNAN", "KANYE WEST", "ISLAND BOYZ", "CHIEF KEEF"};
+        String[] artists = {"POST MALONE", "TOM GRENNAN", "KANYE WEST", "ISLAND BOYZ", "CHIEF KEEF", "JMX"};
 
         //CD, DVD and Blu-ray sales for all artists.
         double[][] artistSales
@@ -25,6 +25,7 @@ public class ArtistsSales
                     {400000, 150000, 300000}, // TOM GRENNAN Sales.
                     {250000, 182000, 100000}, // T SWIFT Sales.
                     {600000, 250000, 400000} //SHEERAN Sales.
+                    {700000, 550000, 700000} //SHEERAN Sales.
                 };
 
         while (true) {
